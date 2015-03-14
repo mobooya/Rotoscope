@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Mohamed\AndroidstudioProjects\Rotoscope\app\libs\jcodec-0.1.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a8558354054f7834c6fb6d2a63b9aad56ed4bc41">
+        <dex dex="C:\Users\Mohamed\AndroidstudioProjects\Rotoscope\app\build\intermediates\pre-dexed\debug\jcodec-0.1.5-cb8f7ff3264c24c60fd0e2200cbf97bd3f3810c8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mohamed\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\Mohamed\AndroidstudioProjects\Rotoscope\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-1d0fbb53451e3ed9f79b18eacb33a9ec06428207.jar" />
+    </item>
+
+</items>

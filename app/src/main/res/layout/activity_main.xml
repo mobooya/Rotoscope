@@ -1,0 +1,149 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/welcome_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_message"/>
+    
+   <Button
+        android:id="@+id/originalOGL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome_message"
+        android:text="@string/button_original"
+        android:tag="@string/button_original"
+		android:onClick="startVideoOGL"></Button>
+       
+    <Button
+        android:id="@+id/blacknwhiteOGL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/originalOGL"
+        android:text="@string/button_blacknwhite"
+        android:tag="@string/button_blacknwhite"
+		android:onClick="startVideoOGL"></Button>
+    
+    <Button
+        android:id="@+id/pixellateOGL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/originalOGL"
+        android:layout_toRightOf="@+id/blacknwhiteOGL"
+        android:text="@string/button_pixellate"
+        android:tag="@string/button_pixellate"
+		android:onClick="startVideoOGL"></Button>
+
+
+   <Button
+        android:id="@+id/tileOGL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blacknwhiteOGL"
+        android:text="@string/button_tile"
+        android:tag="@string/button_tile"
+		android:onClick="startVideoOGL"></Button>
+
+      <Button
+        android:id="@+id/posterizeOGL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blacknwhiteOGL"
+        android:layout_toRightOf="@+id/tileOGL"
+        android:text="@string/button_posterize"
+        android:tag="@string/button_posterize"
+		android:onClick="startVideoOGL"></Button>
+   
+    <Button
+        android:id="@+id/neonOGL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blacknwhiteOGL"
+        android:layout_toRightOf="@+id/posterizeOGL"
+        android:text="@string/button_neon"
+        android:tag="@string/button_neon"
+		android:onClick="startVideoOGL"></Button>
+
+    <Button
+        android:id="@+id/laplacianOGL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tileOGL"
+        android:text="@string/button_laplacian"
+        android:tag="@string/button_laplacian"
+		android:onClick="startVideoOGL"></Button>
+
+    <Button
+        android:id="@+id/kuwaharaOGL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tileOGL"
+        android:layout_toRightOf="@+id/laplacianOGL"
+        android:text="@string/button_kuwahara"
+        android:tag="@string/button_kuwahara"
+		android:onClick="startVideoOGL"></Button>    
+
+    <Button
+        android:id="@+id/freichenOGL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/laplacianOGL"
+        android:text="@string/button_freichen"
+        android:tag="@string/button_freichen"
+		android:onClick="startVideoOGL"></Button>  
+		
+    <Button
+        android:id="@+id/cartoonifyOGL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/laplacianOGL"
+        android:layout_toRightOf="@+id/freichenOGL"
+        android:text="@string/button_cartoonify"
+        android:tag="@string/button_cartoonify"
+		android:onClick="startVideoOGL"></Button>	
+		
+    <Button
+        android:id="@+id/vignetteOGL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/freichenOGL"
+        android:text="@string/button_vignette"
+        android:tag="@string/button_vignette"
+		android:onClick="startVideoOGL"></Button>  
+		
+    <Button
+        android:id="@+id/sepiaOGL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/freichenOGL"
+        android:layout_toRightOf="@+id/vignetteOGL"
+        android:text="@string/button_sepia"
+        android:tag="@string/button_sepia"
+		android:onClick="startVideoOGL"></Button>	
+		
+       <Button
+        android:id="@+id/savetofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/freichenOGL"
+        android:layout_toRightOf="@+id/sepiaOGL"
+        android:text="@string/button_savetofile"
+        android:tag="@string/button_savetofile"
+		android:onClick="startVideoOGL"></Button>
+       
+<!--       <Button
+        android:id="@+id/createAppNavIcons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/savetofile"
+        android:text="@string/button_createAppNavIcons"
+        android:tag="@string/button_createAppNavIcons"
+		android:onClick="startCreateAppNavIcons"></Button>	-->
+    
+</RelativeLayout>
+    

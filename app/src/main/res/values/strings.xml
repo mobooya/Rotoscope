@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rotoscope</string>
+    <string name="welcome_message">Welcome to Rotoscope!</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_display_message">My Message</string>
+    <string name="title_activity_ogles20">OGLES20Activity</string>
+    <string name="button_OGL">OpenGL ES 2.0</string>
+    <string name="title_activity_video">VideoActivity</string>
+    <string name="button_original">Original Video</string>
+    <string name="button_blacknwhite">Black and White</string>
+    <string name="button_pixellate">Pixellate</string>
+    <string name="button_tile">Tile</string>
+    <string name="button_posterize">Posterize</string>
+    <string name="button_laplacian">Laplacian</string>
+    <string name="button_kuwahara">Kuwahara</string>
+    <string name="button_freichen">FreiChen</string>
+    <string name="button_neon">Neon</string>
+    <string name="button_cartoonify">Cartoonify</string>
+    <string name="button_vignette">Vignette</string>
+    <string name="button_sepia">Sepia</string>
+    <string name="button_savetofile">SaveToFile</string>
+    <string name="button_createAppNavIcons">CreateAppNavIcons</string>
+    <string name="title_activity_create_app_nav_icons">CreateAppNavIconsActivity</string>
+
+</resources>
